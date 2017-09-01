@@ -4,14 +4,17 @@ You can use the [editor on GitHub](https://github.com/gsti-if/gsti-if.github.io/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Ferramentas
 
 [![Image](https://lh3.ggpht.com/hWsdM5N7LkZnvYjvRzkfTG_09h7p1RxDXEUWz9RkCXUEXwSB_RHU3ZEURO7NM63c99V_hZmx=w128)
+
 **Google Grupos**](https://groups.google.com/forum/#!forum/gsti-if)
+   
 [![Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)
+
 **Google Drive**](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
 
-```markdown
+```ferramentas
 Syntax highlighted code block
 
 # Header 1
