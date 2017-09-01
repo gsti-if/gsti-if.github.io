@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="pure-g-r" id="layout">
+    {% include 'sidebar.html' %}
+    <div class="pure-u-1">
+        <div class="content">
+            <div class="google-search">
+              <script>
+                (function() {
+                  var cx = '013207087308420121210:ehs0cs4sbxy';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                      '//www.google.com/cse/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                })();
+              </script>
+              <gcse:searchbox-only resultsUrl="{{ SITEURL }}/pages/search.html" newWindow="false" enableAutoComplete=true></gcse:searchbox-only>
+            </div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">
+                    {% block pagetitle %}
+                        {% if not articles_page.has_previous() %}
+                            Latest posts
+                        {% else %}
+                            Posts
+                        {% endif %}
+                    {% endblock pagetitle %}
+                    {% if articles_page.has_previous() %}
+                        &ndash; Page&nbsp;{{ articles_page.number }}
+                    {% endif %}
+                </h1>
+                {% for article in articles_page.object_list %}
+                    {% include 'post.html' %}
+                    {% if MATH is defined and not MATH['auto_insert'] %}
+			{% if page and page.mathjax or article and article.mathjax %}
+                            {% set mathjax = True %}
+                        {% endif %}
+                    {% endif %}
+                    {% if loop.last and mathjax is defined %}
+                        {{ MATHJAXSCRIPT }}
+                    {% endif %}
+                {% endfor %}
+                {% include 'pagination.html' %}
+                {% include 'footer.html' %}
+            </div>
+        </div>
+    </div>
+    <div class="publish-github">
+	    <a href="https://github.com/pythonclub/pythonclub.github.io">
+	        <img style="position: absolute; top: 0; right: 0; border: 0;"
+	            src="https://raw.githubusercontent.com/pythonclub/pythonclub.github.io/pelican/content/images/pythonclub_geral/forkme_dark-red_background-pythonclub01.png"
+	            alt="Publique via GitHub"
+	            data-canonical-src="https://raw.githubusercontent.com/pythonclub/pythonclub.github.io/pelican/content/images/pythonclub_geral/forkme_dark-red_background-pythonclub01.png">
+	    </a>
+    </div>
+</div>
+{% endblock content %}

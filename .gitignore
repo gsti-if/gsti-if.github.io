@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# pelican
+output/
+*.pid
+
+# OS
+Thumbs.db
+
+# Arquivos temporarios do Gedit
+*~
+
+# Cache files
+cache/*
+
+# Pycharm
+.idea
+
+# Virtualenv
+venv/
+
+MacOS Files
+.DS_Store
+
+# alias
+src
+
+.env

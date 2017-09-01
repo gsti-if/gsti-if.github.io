@@ -1,0 +1,8 @@
+#-e git+https://github.com/getpelican/pelican.git#egg=pelican
+pelican==3.6.3
+Markdown
+pelican-youtube
+pelican-vimeo
+#pelican-alias
+-e git+https://github.com/luzfcb/pelican-alias.git@fix-wrong-alias-filename-output#egg=pelican-alias
+# rst2pdf

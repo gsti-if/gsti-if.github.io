@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% block title %}{{ article.title|striptags }} por {{ article.author }} // #{{ super() }}{% endblock title %}
+
+{% block head_css %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">
+{% endblock %}
+
+{% block bottom_js %}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+        $(window).load(function(){
+          $("iframe").css("margin-bottom", "-6px")
+          $("#twitter-widget-0").css("margin-bottom", "-5px");
+          $("#twitter-widget-0").css("margin-left", "-1px");
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/platform.js">
+      {lang: 'pt-BR'}
+    </script>
+{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <meta property="fb:app_id" content="{{ FACEBOOK_APPID }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ article.title }}" />
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta property="og:url" content="http://pythonclub.com.br/{{ article.url }}" />
+    <meta property="og:description" content="{{ article.summary|striptags }}" />
+    <meta property="og:image" content="{{ SITELOGO }}" />
+{% endblock head %}
+
+{% block content %}
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author }}">
+                    {% if article.author_gravatar %}
+                        <img class="article-avatar" alt="{{ article.author }}" src="{{ article.author_gravatar }}">
+                    {% endif %}
+                </a>
+                <h2 class="article-info">{{ article.author }}</h2>
+    			<ul class="author-social">
+                    {% if article.gittip %}
+                    <li>
+                        <a target="_blank" href="https://www.gittip.com/{{ article.gittip }}">
+                            <i class="fa fa-lg fa-fw fa-gittip"></i>
+                            <strong>Gittip</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.github %}
+                    <li>
+                        <a target="_blank" href="https://github.com/{{ article.github }}">
+                            <i class="fa fa-lg fa-fw fa-github"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.bitbucket %}
+                    <li>
+                        <a target="_blank" href="https://bitbucket.org/{{ article.bitbucket }}">
+                            <i class="fa fa-lg fa-fw fa-bitbucket"></i>
+                            <strong>Bitbucket</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.twitter %}
+                    <li>
+                        <a target="_blank" href="https://twitter.com/{{ article.twitter }}">
+                            <i class="fa fa-lg fa-fw fa-twitter"></i>
+                            <strong>Twitter</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.linkedin %}
+                    <li>
+                        <a target="_blank" href="http://www.linkedin.com/in/{{ article.linkedin }}">
+                            <i class="fa fa-lg fa-fw fa-linkedin"></i>
+                            <strong>Linkedin</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.facebook %}
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/{{ article.facebook }}">
+                            <i class="fa fa-lg fa-fw fa-facebook"></i>
+                            <strong>Facebook</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if article.site %}
+                    <li>
+                        <a target="_blank" href="{{ article.site }}">
+                            <i class="fa fa-lg fa-fw fa-globe"></i>
+                            <strong>Site</strong>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                {% if article.about_author %}
+                    <small class="about-author">{{ article.about_author }}</small>
+                {% endif %}
+                <h5>Publicado em:</h5>
+                <p>{{ article.locale_date }}</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>{{ article.title }}</h1>
+                        <p class="post-meta">
+                            // Tags {% for tag in article.tags %}
+                                <a class="post-category" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                            {% endfor %}
+                        </p>
+                </header>
+            </section>
+            {{ article.content }}
+
+            <div class="licence">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons"
+                                                                                               style="border-width:0"
+                                                                                               src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/></a><br/><a
+                    xmlns:dct="http://purl.org/dc/terms/" property="dct:title"
+                    href="http://pythonclub.com.br/{{ article.url }}">"{{ article.title }}"</a> de <a
+                    xmlns:cc="http://creativecommons.org/ns#" href="{{ SITEURL }}/{{ article.author.url }}"
+                    property="cc:attributionName" rel="cc:attributionURL">"{{ article.author }}"</a> está licenciado com uma Licença
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons -
+                    Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
+            </div>
+
+            <div class="sharing">
+                <!-- Facebook sharing -->
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId={{ FACEBOOK_APPID }}&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-share-button" data-href="http://pythonclub.com.br/{{ article.url }}" data-type="button_count"></div>
+
+                <!-- Google+ sharing -->
+                <div class="g-plus alinhar" data-action="share" data-annotation="bubble" data-href="http://pythonclub.com.br/{{ article.url }}"></div>
+
+                <!-- Twitter sharing -->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-lang="pt" style="margin-bottom: -4px !important;">Tweetar</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+
+            <div class="hr"></div>
+            <a href="#" class="go-top">Topo</a>
+            {% if DISQUS_SITENAME %}
+                <div class="comments">
+                    <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                        /* * * CONFIGURATION VARIABLES: THIS CODE IS ONLY AN EXAMPLE * * */
+                        var disqus_shortname = '{{ DISQUS_SITENAME }}'; // Required - Replace example with your forum shortname
+                        var disqus_identifier = '{{ article.url }}';
+                        var disqus_title = '{{ article.title }}';
+                        var disqus_url = 'http://pythonclub.com.br/{{ article.url }}';
+                    
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            {% endif %}
+            {% include 'footer.html' %}
+        </div>
+    </div>
+</div>
+{% endblock  %}
