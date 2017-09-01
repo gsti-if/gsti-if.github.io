@@ -1,17 +1,16 @@
 ## Bem vindo ao grupo GSTI-IF
 
-You can use the [editor on GitHub](https://github.com/gsti-if/gsti-if.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Site do Grupo de Servidores de Tecnologia da Informação dos Institutos Federais (GSTI-IF).
+A rede dos Institutos Federais fortalecendo o mundo OpenSource!
 
 ### Ferramentas
 
 [![Image](https://lh3.ggpht.com/hWsdM5N7LkZnvYjvRzkfTG_09h7p1RxDXEUWz9RkCXUEXwSB_RHU3ZEURO7NM63c99V_hZmx=w128)](https://groups.google.com/forum/#!forum/gsti-if)
-[[Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
+[![Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
 [![Image](https://image.flaticon.com/icons/png/128/25/25231.png)](https://github.com/gsti-if)
 
 ```codigos
-Syntax highlighted code block
+Exemplo de sintaxe highlighted code block
 
 # Header 1
 ## Header 2
@@ -28,12 +27,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gsti-if/gsti-if.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+By GSTI-IF
