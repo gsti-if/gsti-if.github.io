@@ -6,7 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image](https://lh3.ggpht.com/hWsdM5N7LkZnvYjvRzkfTG_09h7p1RxDXEUWz9RkCXUEXwSB_RHU3ZEURO7NM63c99V_hZmx=w128)
+**Google Grupos**
 
 ```markdown
 Syntax highlighted code block
