@@ -1,6 +1,7 @@
 ## Bem vindo ao GSTI
 
 Grupo de Servidores de Tecnologia da Informação da Rede Federal de Ensino (GSTI).
+
 A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo OpenSource!
 
 ### Ferramentas
