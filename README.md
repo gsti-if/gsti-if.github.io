@@ -1,8 +1,8 @@
-## Bem vindo ao GSTI
-
-Grupo de Servidores de Tecnologia da Informação da Rede Federal de Ensino (GSTI).
+## Grupo de Servidores de Tecnologia da Informação da Rede Federal de Ensino (GSTI)
 
 A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo OpenSource!
+
+
 
 ### Ferramentas
 
@@ -10,6 +10,8 @@ A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo Op
 [![Image](https://www.netelip.com/wp-content/uploads/2016/12/n_phpbb.png)](https://gsti.continente.ifsc.edu.br/)
 [![Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
 [![Image](https://image.flaticon.com/icons/png/128/25/25231.png)](https://github.com/gsti-if)
+
+
 
 ```codigos
 Exemplo de sintaxe highlighted code block
