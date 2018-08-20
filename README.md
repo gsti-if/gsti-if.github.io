@@ -1,6 +1,6 @@
-## Bem vindo ao grupo GSTI-IF
+## Bem vindo ao GSTI
 
-Site do Grupo de Servidores de Tecnologia da Informação (GSTI).
+Grupo de Servidores de Tecnologia da Informação da Rede Federal de Ensino (GSTI).
 A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo OpenSource!
 
 ### Ferramentas
