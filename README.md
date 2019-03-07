@@ -14,9 +14,9 @@ A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo Op
 ## Créditos:
 
 ### Criador do Fórum Google Groups.
-Gerllys Speroto Calvi <gerllys@gmail.com>
+Gerllys Speroto Calvi <gerllys@gmail.com>  
 IFES São Mateus
 
 ### Criador do Fórum phpBB integrado a rede CAFe.
-Igor Kattar <igor.kattar@gmail.com>
+Igor Kattar <igor.kattar@gmail.com>  
 IFSC Continente
