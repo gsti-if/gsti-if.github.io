@@ -8,13 +8,15 @@ A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo Op
 [![Image](https://www.netelip.com/wp-content/uploads/2016/12/n_phpbb.png)](https://gsti.continente.ifsc.edu.br/)
 [![Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
 [![Image](https://image.flaticon.com/icons/png/128/25/25231.png)](https://github.com/gsti-if)
+[![Image](https://lh3.googleusercontent.com/u1DT1-_6FLTqldVf9fplZoMQ2leaP-Szgej3AuGXOjmUbaTbWWu8OxURE3QtmEgxam20R7yr3Q=w128-h128-e365)](https://t.me/joinchat/AMhXhkIuCrp1yJX2AgIvkg)
 
-```codigos
-Exemplo de sintaxe highlighted code block
 
-**Bold** and _Italic_ and `Code` text
+## Créditos:
 
-[Link](url) and ![Image](src)
-```
+### Criador do Fórum Google Groups.
+Gerllys Speroto Calvi <gerllys@gmail.com>
+IFES São Mateus
 
-By GSTI-IF
+### Criador do Fórum phpBB integrado a rede CAFe.
+Igor Kattar <igor.kattar@gmail.com>
+IFSC Continente
