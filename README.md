@@ -9,8 +9,9 @@ A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo Op
 [![Image](http://download.seaicons.com/icons/uiconstock/socialmedia/128/Google-Drive-icon.png)](https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU)
 [![Image](https://image.flaticon.com/icons/png/128/25/25231.png)](https://github.com/gsti-if)
 [![Image](https://lh3.googleusercontent.com/u1DT1-_6FLTqldVf9fplZoMQ2leaP-Szgej3AuGXOjmUbaTbWWu8OxURE3QtmEgxam20R7yr3Q=w128-h128-e365)](https://t.me/joinchat/AMhXhkIuCrp1yJX2AgIvkg)
-
-
+  
+  
+  
 ## Créditos:
 
 ### Criador do Fórum Google Groups.
