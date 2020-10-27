@@ -3,7 +3,6 @@
 A rede dos Institutos Federais e Universidades Fedderais fortalecendo o mundo OpenSource!
 
 ### Ferramentas
-
 [![Image](https://lh3.ggpht.com/hWsdM5N7LkZnvYjvRzkfTG_09h7p1RxDXEUWz9RkCXUEXwSB_RHU3ZEURO7NM63c99V_hZmx=w128)](https://groups.google.com/forum/#!forum/gsti-if)
 [![Image](https://images-na.ssl-images-amazon.com/images/I/51lpm9SpsJL.png)](https://discord.gg/jDxkHyX)
 [![Image](https://www.netelip.com/wp-content/uploads/2016/12/n_phpbb.png)](https://gsti.continente.ifsc.edu.br/)
