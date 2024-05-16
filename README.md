@@ -2,7 +2,7 @@
 A rede federal de ensino do Brasil se comunicando!
 
 ## Plataformas
-<a href="https://chat.whatsapp.com/LUbvDMZAstk8k2NGk6KtEg">
+<a href="https://chat.whatsapp.com/J95dwUcxqmd2Bm67ybe1wM">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/99b02ad0-f0a8-427e-a8ca-2764d375489c" alt="Imagem (GSTI-IF) WhatsApp" title="(GSTI-IF) WhatsApp" width="100" height="100"/>
 </a>
 <a href="https://groups.google.com/forum/#!forum/gsti-if" target="_blank">
