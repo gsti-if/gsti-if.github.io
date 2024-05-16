@@ -8,11 +8,11 @@ A rede federal de ensino do Brasil se comunicando!
 <a href="https://groups.google.com/forum/#!forum/gsti-if" target="_blank">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/24db9a0e-9fdb-44b3-9836-a606a7acb1d4" alt="Imagem (GSTI-IF) Google Groups" title="(GSTI-IF) Google Groups" width="100" height="100"/>
 </a>
-<a href="https://t.me/joinchat/AMhXhkIuCrp1yJX2AgIvkg" target="_blank">
-  <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/f1e22bac-eb79-463d-8054-3be7e84fb481" alt="Imagem (GSTI-IF) Telegram" title="(GSTI-IF) Telegram" width="100" height="100"/>
-</a>
 <a href="https://discord.gg/jDxkHyX" target="_blank">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/693cf705-5411-4a99-b3e4-205d134dc1d5" alt="Imagem (GSTI-IF) Discord" title="(GSTI-IF) Discord" width="100" height="100"/>
+</a>
+<a href="https://t.me/joinchat/AMhXhkIuCrp1yJX2AgIvkg" target="_blank">
+  <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/f1e22bac-eb79-463d-8054-3be7e84fb481" alt="Imagem (GSTI-IF) Telegram" title="(GSTI-IF) Telegram" width="100" height="100"/>
 </a>
 <a href="https://drive.google.com/open?id=0B8ZBU6RUh8ZqTDdVNDRvbVhoTEU">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/a86d1806-11fd-4585-a03e-ca21cdc31433" alt="Imagem (GSTI-IF) Google Drive" title="(GSTI-IF) Google Drive" width="100" height="100"/>
