@@ -1,3 +1,6 @@
+## GSTI-IF
+Grupo de Servidores de Tecnologia da Informação das Instituições Federais de Ensino do Brasil
+
 ## Plataformas
 <a href="https://chat.whatsapp.com/J95dwUcxqmd2Bm67ybe1wM">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/99b02ad0-f0a8-427e-a8ca-2764d375489c" alt="Imagem (GSTI-IF) WhatsApp" title="(GSTI-IF) WhatsApp" width="100" height="100"/>
