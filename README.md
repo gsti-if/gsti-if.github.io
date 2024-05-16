@@ -1,7 +1,7 @@
 ## GSTI-IF
 Grupo de Servidores de Tecnologia da Informação das Instituições Federais de Ensino do Brasil
 
-## Plataformas
+### Plataformas
 <a href="https://chat.whatsapp.com/J95dwUcxqmd2Bm67ybe1wM">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/99b02ad0-f0a8-427e-a8ca-2764d375489c" alt="Imagem (GSTI-IF) WhatsApp" title="(GSTI-IF) WhatsApp" width="100" height="100"/>
 </a>
@@ -30,7 +30,7 @@ Grupo de Servidores de Tecnologia da Informação das Instituições Federais de
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/567a9301-f60c-4416-8bc9-91a2a18bbf70" alt="Imagem (GSTI-IF) Fórum" title="(GSTI-IF) Fórum" width="100" height="100"/>
 </a>
 
-## Créditos
+### Créditos
 
 ### Criador do Fórum Google Groups, em 14 de Julho de 2011:
 Gerllys Speroto Calvi <gerllys@gmail.com>  
