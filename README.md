@@ -1,9 +1,10 @@
-## GSTI-IF
-Grupo de Servidores de Tecnologia da Informação das Instituições Federais de Ensino do Brasil
-Institutos Federais, Universidades Federais, Cefets, Escolas Técnicas vinculadas às Universidades Federais, Colégio Pedro II, etc.
-Todos vinculados ao PCCTAE (Analista de TI, Técnico de TI, Tecnólogo/TI, Técnico de Laboratório/TI, etc.)
+# GSTI-IF
+Grupo de Servidores de Tecnologia da Informação das Instituições Federais de Ensino do Brasil  
+  
+**Servidores de Tecnologia da Informação** são todos profissionais de TI vinculados ao PCCTAE, Analista de TI, Técnico de TI, Tecnólogo/TI, Técnico de Laboratório/TI, etc.  
+**Instituições Federais de Ensino do Brasil** são Universidades Federais, Institutos Federais, Cefets, Escolas Técnicas vinculadas às Universidades Federais, Colégio Pedro II, etc.  
 
-### Plataformas
+## Plataformas
 <a href="https://chat.whatsapp.com/J95dwUcxqmd2Bm67ybe1wM">
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/99b02ad0-f0a8-427e-a8ca-2764d375489c" alt="Imagem (GSTI-IF) WhatsApp" title="(GSTI-IF) WhatsApp" width="100" height="100"/>
 </a>
@@ -32,12 +33,12 @@ Todos vinculados ao PCCTAE (Analista de TI, Técnico de TI, Tecnólogo/TI, Técn
   <img src="https://github.com/gsti-if/gsti-if.github.io/assets/5860606/567a9301-f60c-4416-8bc9-91a2a18bbf70" alt="Imagem (GSTI-IF) Fórum" title="(GSTI-IF) Fórum" width="100" height="100"/>
 </a>
 
-### Créditos
+## Créditos
 
-### Criador do Fórum Google Groups, em 14 de Julho de 2011:
-Gerllys Speroto Calvi <gerllys@gmail.com>  
+### Criadores do Fórum Google Groups, em 14 de Julho de 2011:  
+Gerllys Speroto Calvi e Welington Mothé de Oliveira  
 IFES São Mateus
 
-### Criador do Fórum phpBB integrado a rede CAFe:
-Igor Kattar <igor.kattar@gmail.com>  
+### Criador do Fórum phpBB integrado a rede CAFe:  
+Igor Kattar  
 IFSC Continente
