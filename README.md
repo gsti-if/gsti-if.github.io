@@ -1,5 +1,7 @@
 ## GSTI-IF
 Grupo de Servidores de Tecnologia da Informação das Instituições Federais de Ensino do Brasil
+Institutos Federais, Universidades Federais, Cefets, Escolas Técnicas vinculadas às Universidades Federais, Colégio Pedro II, etc.
+Todos vinculados ao PCCTAE (Analista de TI, Técnico de TI, Tecnólogo/TI, Técnico de Laboratório/TI, etc.)
 
 ### Plataformas
 <a href="https://chat.whatsapp.com/J95dwUcxqmd2Bm67ybe1wM">
